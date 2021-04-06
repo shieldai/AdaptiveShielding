@@ -1,0 +1,20 @@
+<routes>
+<vType vClass="bus" id="BUS" color="1,0,0" guiShape="bus" length="12" maxSpeed="70"/>
+
+<routeDistribution id="routedist1">
+<route id="busRoute1" edges="122886922#0 129300241#2 -122886921#2 122886923#0 51707741#0 30259990 28684238 30471502#0" 
+probability="1"/>
+</routeDistribution>
+
+<routeDistribution id="routedist2">
+<route id="busRoute2" edges="166564262 28903078 122964118#0 62212736#2 62212739#0" 
+probability="1"/>
+</routeDistribution>
+
+<flow id="BUS1" route="routedist1" type="BUS" begin="0" end= "5500" period="100">
+</flow>
+
+<flow id="BUS2" route="routedist2" type="BUS" begin="0" end= "5500" period="50">
+</flow>
+
+</routes>

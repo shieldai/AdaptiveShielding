@@ -1,0 +1,84 @@
+LANES: 36
+LANE: -gneE0_0
+LANE: -gneE0_1
+LANE: -gneE1_0
+LANE: -gneE1_1
+LANE: -gneE2_0
+LANE: -gneE2_1
+LANE: -gneE3_0
+LANE: -gneE3_1
+LANE: :gneJ1_0_0
+LANE: :gneJ1_10_0
+LANE: :gneJ1_11_0
+LANE: :gneJ1_12_0
+LANE: :gneJ1_13_0
+LANE: :gneJ1_14_0
+LANE: :gneJ1_15_0
+LANE: :gneJ1_16_0
+LANE: :gneJ1_17_0
+LANE: :gneJ1_18_0
+LANE: :gneJ1_19_0
+LANE: :gneJ1_1_0
+LANE: :gneJ1_2_0
+LANE: :gneJ1_3_0
+LANE: :gneJ1_4_0
+LANE: :gneJ1_5_0
+LANE: :gneJ1_6_0
+LANE: :gneJ1_7_0
+LANE: :gneJ1_8_0
+LANE: :gneJ1_9_0
+LANE: gneE0_0
+LANE: gneE0_1
+LANE: gneE1_0
+LANE: gneE1_1
+LANE: gneE2_0
+LANE: gneE2_1
+LANE: gneE3_0
+LANE: gneE3_1
+TLS: gneJ1
+Map /home/martin/mt/SUMO_RL/SMGRefinement/data/exp_basic/one_junction.sumo.cfg
+Edges 28, Lanes 36
+Traffic Lights 1
+	Traffic Lights with max Lanes gneJ1 = 16
+	Traffic Lights with max Edges gneJ1 = 4
+Load Traffic Light data 0.000115s!
+PRINT Config:
+gneJ1
+	StateSpace = lane_gneE1: 3 *1 [0.250000] x lane_gneE2: 3 *1 [0.250000] x lane_gneE3: 3 *1 [0.250000] x lanegneE0: 3 *1 [0.250000]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+Simulation Init Time: 0.005629
+1000: gneJ1: 	StateSpace = lane_gneE1: 4 *1 [0.207136] x lane_gneE2: 4 *1 [0.205828] x lane_gneE3: 4 *1 [0.371570] x lanegneE0: 4 *1 [0.215465]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+1500: gneJ1: 	StateSpace = lane_gneE1: 5 *1 [0.172084] x lane_gneE2: 5 *1 [0.170403] x lane_gneE3: 5 *1 [0.473046] x lanegneE0: 5 *1 [0.184467]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+2000: gneJ1: 	StateSpace = lane_gneE1: 6 *1 [0.143122] x lane_gneE2: 5 *1 [0.141588] x lane_gneE3: 6 *1 [0.556903] x lanegneE0: 5 *1 [0.158387]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+2500: gneJ1: 	StateSpace = lane_gneE1: 7 *1 [0.122183] x lane_gneE2: 6 *1 [0.118699] x lane_gneE3: 7 *1 [0.622338] x lanegneE0: 5 *1 [0.136780]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+3000: gneJ1: 	StateSpace = lane_gneE1: 8 *1 [0.107633] x lane_gneE2: 7 *1 [0.101056] x lane_gneE3: 8 *1 [0.672447] x lanegneE0: 5 *1 [0.118865]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+3500: gneJ1: 	StateSpace = lane_gneE1: 9 *1 [0.098230] x lane_gneE2: 7 *1 [0.086728] x lane_gneE3: 9 *1 [0.710838] x lanegneE0: 5 *1 [0.104204]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+4000: gneJ1: 	StateSpace = lane_gneE1: 10 *1 [0.090839] x lane_gneE2: 8 *1 [0.075928] x lane_gneE3: 10 *1 [0.740604] x lanegneE0: 5 *1 [0.092629]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+4500: gneJ1: 	StateSpace = lane_gneE1: 10 *1 [0.084431] x lane_gneE2: 8 *1 [0.067648] x lane_gneE3: 10 *1 [0.764322] x lanegneE0: 5 *1 [0.083600]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+5000: gneJ1: 	StateSpace = lane_gneE1: 10 *1 [0.079321] x lane_gneE2: 8 *1 [0.061153] x lane_gneE3: 10 *1 [0.783019] x lanegneE0: 5 *1 [0.076507]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+5500: gneJ1: 	StateSpace = lane_gneE1: 10 *1 [0.075100] x lane_gneE2: 8 *1 [0.056142] x lane_gneE3: 10 *1 [0.797786] x lanegneE0: 5 *1 [0.070972]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+Simulation /home/martin/mt/SUMO_RL/SMGRefinement/build/log/test.log
+Performance : 2.33279e+07
+Total deviation count : 307 - 5.11752%
+Closing SUMO Connection
+2.33279e+07

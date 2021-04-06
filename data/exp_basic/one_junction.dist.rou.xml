@@ -1,0 +1,12 @@
+
+    <!-- Generated at 22/09/2020 09:21:21 from run.sh --> 
+    <routes>
+    <routeDistribution id="routedist1">
+        <route id="N-to-S" edges="-gneE1 gneE2" probability="0.1"/>
+        <route id="S-to-N" edges="-gneE2 gneE1" probability="0.1"/>
+        <route id="E-to-W" edges="gneE0 gneE3" probability="0.2"/>
+        <route id="w-to-E" edges="-gneE3 -gneE0" probability="0.6"/>
+    </routeDistribution>
+    <flow id="1" color="1,1,0" route="routedist1" begin="0" end="10000" period="1.5"></flow>
+    </routes>
+    

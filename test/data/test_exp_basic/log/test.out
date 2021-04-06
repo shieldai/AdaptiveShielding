@@ -1,0 +1,47 @@
+Map 
+Edges 36, Lanes 0
+Traffic Lights 1
+	Traffic Lights with max Lanes gneJ1 = 16
+	Traffic Lights with max Edges gneJ1 = 4
+Load Traffic Light data 0.001352s!
+PRINT Config:
+gneJ1
+	StateSpace = lane_gneE1: 3 *1 [0.250000] x lane_gneE2: 3 *1 [0.250000] x lane_gneE3: 3 *1 [0.250000] x lanegneE0: 3 *1 [0.250000]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+Simulation Init Time: 0.006838
+1000: gneJ1: t	StateSpace = lane_gneE1: 4 *1 [0.207319] x lane_gneE2: 4 *1 [0.205985] x lane_gneE3: 4 *1 [0.370812] x lanegneE0: 4 *1 [0.215884]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+1500: gneJ1: t	StateSpace = lane_gneE1: 5 *1 [0.172248] x lane_gneE2: 5 *1 [0.170564] x lane_gneE3: 5 *1 [0.472342] x lanegneE0: 5 *1 [0.184846]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+2000: gneJ1: t	StateSpace = lane_gneE1: 6 *1 [0.143629] x lane_gneE2: 5 *1 [0.141915] x lane_gneE3: 6 *1 [0.555862] x lanegneE0: 5 *1 [0.158593]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+2500: gneJ1: t	StateSpace = lane_gneE1: 7 *1 [0.123311] x lane_gneE2: 6 *1 [0.119284] x lane_gneE3: 7 *1 [0.620324] x lanegneE0: 5 *1 [0.137081]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+3000: gneJ1: t	StateSpace = lane_gneE1: 8 *1 [0.108806] x lane_gneE2: 7 *1 [0.101587] x lane_gneE3: 8 *1 [0.670301] x lanegneE0: 5 *1 [0.119307]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+3500: gneJ1: t	StateSpace = lane_gneE1: 9 *1 [0.098880] x lane_gneE2: 7 *1 [0.087292] x lane_gneE3: 9 *1 [0.709014] x lanegneE0: 5 *1 [0.104814]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+4000: gneJ1: t	StateSpace = lane_gneE1: 10 *1 [0.090557] x lane_gneE2: 8 *1 [0.076436] x lane_gneE3: 10 *1 [0.739524] x lanegneE0: 5 *1 [0.093484]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+4500: gneJ1: t	StateSpace = lane_gneE1: 10 *1 [0.083574] x lane_gneE2: 8 *1 [0.067976] x lane_gneE3: 10 *1 [0.763741] x lanegneE0: 5 *1 [0.084710]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+5000: gneJ1: t	StateSpace = lane_gneE1: 10 *1 [0.078160] x lane_gneE2: 8 *1 [0.061447] x lane_gneE3: 10 *1 [0.782419] x lanegneE0: 5 *1 [0.077974]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+5500: gneJ1: t	StateSpace = lane_gneE1: 10 *1 [0.073897] x lane_gneE2: 8 *1 [0.056496] x lane_gneE3: 10 *1 [0.796776] x lanegneE0: 5 *1 [0.072832]
+	ActionSpace = GGGgrrrrGGGgrrrr:0.500000, rrrrGGGgrrrrGGGg:0.500000
+
+python succeed
+Simulation /home/martin/SMGRefinement/test/data/test_exp_basic.run
+Performance : 1.82698e+07
+Total deviation count : 320 - 5.33333%
+Closing SUMO Connection
+1.82698e+07

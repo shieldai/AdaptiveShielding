@@ -1,0 +1,23 @@
+   
+<routes>
+<flows>
+    <vType vClass="passenger" id="uber" personCapacity="5"/>
+    <interval begin="0" end="5500">
+		<flow id="NS" color="1,1,0" 
+			from="-46656786" to="4236349#0" 
+			via="30471500#0" period="5"/>
+		<flow id="SN" color="1,1,0" 
+			from="28586048#0" to="24449353" 
+			via="77615982" period="4"/>
+		<flow id="OW" color="1,1,0" 
+			from="17000885#0" to="-52656372#2" 
+			via="30259803#0" period="15"/>
+		<flow id="WO" color="1,1,0" 
+			from="183090994" to="30471502#0" 
+			period="15"/>
+		<flow id="OW2" color="1,1,0" 
+			from="194850767#2" to="81522820#1" 
+			via="166564262" period="10"/>
+    </interval>
+</flows>
+</routes>
